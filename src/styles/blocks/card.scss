@@ -28,6 +28,16 @@
     color: $secondary-color;
     margin-bottom: 16px;
   }
+  &__reviews {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: $main-color;
+  }
+  &__reviews-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
   &__price {
     display: flex;
     justify-content: space-between;
